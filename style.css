@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body,
+html {
+    background-color: #616161;
+    height: 100%;
+}
+
+
+
+.center {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#menu {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    z-index: 50;
+    color: white;
+    background-color: black;
+    user-select: none;
+}
+#menu * {
+    padding: 3px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#menu button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border: none;
+    font: inherit;
+}
+.item-menu:hover {
+    background-color: red;
+}
+#inputRef {
+    width: 80px;
+    padding: 3px;
+}
+#div-lines {
+    z-index: 50;
+    height: 100%;
+}
+.text-line {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    user-select: none;
+    text-anchor: middle;
+    dominant-baseline: middle;
+    fill: red;
+}
+
+#input-image{
+    text-decoration: none;
+    width: 300px;
+}
+#menu > a{
+    margin-left: auto;
+}
+#menu a > svg{
+    width: 44px;
+}
+
+
+
+body > svg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#div-preview{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 100%;
+}
+#preview-image{
+    margin: 2vh;
+    width: 90vw;
+    user-select: none;
+}
