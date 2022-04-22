@@ -192,17 +192,3 @@ function updateSizes(){
     document.querySelector('#guide-lines').style.height = document.querySelector('#div-preview').clientHeight
     verticalGuideLine.setAttribute('y2', '100%')
 }
-
-
-
-
-
-
-
-
-
-
-window.addEventListener('keydown', (e)=>{  
-    if(e.code == 'Space'){
-    }
-})
